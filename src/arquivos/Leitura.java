@@ -9,6 +9,8 @@ public class Leitura {
 
 	public static void main(String[] args) throws IOException {
 		
+		System.out.println("Testando git");
+
 		FileInputStream stream = new FileInputStream("C:/codelab/Ficha.txt");
 		InputStreamReader reader = new InputStreamReader(stream);
 		BufferedReader br = new BufferedReader(reader);
